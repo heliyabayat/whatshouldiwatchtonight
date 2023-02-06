@@ -100,10 +100,12 @@ ul {
 /* hero
  =============================================================== */
 .hero {
-  background-image: url("/img/COVER.jpg");
-  background-size: contain;
-  min-height: 22rem;
-  padding: 20rem 0;
+  background: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
 }
 .hero__title {
   font-size: var(--display-1);
