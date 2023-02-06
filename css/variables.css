@@ -1,0 +1,61 @@
+:root {
+  /* Fonts and typeface */
+  --family-sans-serif: "dana", sans-serif;
+
+  --body-font-family: var(--family-sans-serif);
+  --body-font-size: 1rem;
+  --font-size-sm: calc(var(--body-font-size) * 0.875);
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-demibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  --headings-font-family: var(--family-sans-serif);
+  --headings-font-weight: var(--font-weight-demibold);
+  --font-scale: 1.2;
+  --h6-font-size: calc(var(--body-font-size) * 1);
+  --h5-font-size: calc(var(--h6-font-size) * var(--font-scale));
+  --h4-font-size: calc(var(--h5-font-size) * var(--font-scale));
+  --h3-font-size: calc(var(--h4-font-size) * var(--font-scale));
+  --h2-font-size: calc(var(--h3-font-size) * var(--font-scale));
+  --h1-font-size: calc(var(--h2-font-size) * var(--font-scale));
+
+  --display-6: calc(var(--h1-font-size) * var(--font-scale));
+  --display-5: calc(var(--display-6) * var(--font-scale));
+  --display-4: calc(var(--display-5) * var(--font-scale));
+  --display-3: calc(var(--display-4) * var(--font-scale));
+  --display-2: calc(var(--display-3) * var(--font-scale));
+  --display-1: calc(var(--display-2) * var(--font-scale));
+
+  /* Colors */
+  --white: #fbfcfc;
+  --black: #000;
+  --gray-dark: #333533;
+  --gray-light: #d6d6d6;
+
+  --primary-color:#ffd100;
+  --primary-color-rgb: rgb(255, 209, 0);
+  --primary-light-color:#ffdd32;
+  --primary-light-rgb: rgb(255, 221, 50);
+  --primary-dark-color: #dbb42c;
+  --primary-dark-color-rgb: rgb(219, 180, 44)
+
+  /* Shadows */
+  --box-shadow-sm: 0 0.25rem 0.875rem -0.5rem rgba(0, 0, 0, 0.2);
+  --box-shadow: 0 0.5rem 1.25rem -0.5rem rgba(0, 0, 0, 0.25);
+  --box-shadow-lg: 0 0.875rem 1.75rem rgba(0, 0, 0, 0.265);
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius: 0.5rem;
+  --radius-lg: 0.875rem;
+  --radius-circle: 50%;
+  --radius-pill: 1000px;
+
+  /* spacing */
+  --space: calc(0.5 * var(--body-font-size));
+}
